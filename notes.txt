@@ -1,0 +1,18 @@
+Docker Commands
+----------------
+cd <folder containing DockerFile>
+docker build -t facerecognition .
+docker run -it facerecognition:latest bash
+
+Face Recognition
+----------------
+cd /app/face-recognition
+pip install -r requirements.txt
+cd /app/face-recognition/EmoPy/examples
+python fermodel_example.py
+
+Git Hub
+-------
+https://github.com/thoughtworksarts/EmoPy
+
+Note: unzip face-recognition zip and use it.
